@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+h1{
+    padding: 50px;
+    font-size: 50px;
+}
+
 body {
     background: url("https://source.unsplash.com/1600x900/?landscape");
     background-size: cover;
