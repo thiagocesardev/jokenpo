@@ -9,6 +9,10 @@ h1{
     font-size: 50px;
 }
 
+.result{
+    color: green;
+    font-size: 30px;
+}
 body {
     background: url("https://source.unsplash.com/1600x900/?landscape");
     background-size: cover;
