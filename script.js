@@ -1,6 +1,6 @@
 const result = document.querySelector('.result')
 const humanScore = document.querySelector('#human-score')
-const machineScore = document.querySelector('##machine-score')
+const machineScore = document.querySelector('#machine-score')
 
 let humanScoreNumber = 0
 let machineScoreNumber = 0
