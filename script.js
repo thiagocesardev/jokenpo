@@ -16,16 +16,17 @@ const playMachine = () => {
 }
 
 const playTheGame = (human, machine) => {
+
+    document.querySelector('#machine-choice').innerHTML = machine;
+
     if (human === machine) {
         result.innerHTML = "Deu empate"
-
     } else if ((human === 'paper' && machine === 'rock') ||
         (human === 'rock' && machine === 'scissors') ||
         (human === 'scissors' && machine === 'paper')) {
         result.innerHTML = "Você ganhou!"
         humanScoreNumber++
         humanScore.innerHTML = humanScoreNumber
-
     } else {
         result.innerHTML = "Máquina ganhou!"
         machineScoreNumber++
